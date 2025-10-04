@@ -1,0 +1,24 @@
+{
+  "name": "wait-steps",
+  "displayName": "Wait Steps",
+  "version": "1.0.0",
+  "description": "Provides step definitions to pause execution for a specified duration, along with its core POM function.",
+  "snippets": [
+    {
+      "id": "wait_step_definition",
+      "type": "step_definition",
+      "target_file": "cypress/common/stepDefinition.core.js",
+      "marker_start_id": "CC_WAIT_STEP_DEF_START",
+      "marker_end_id": "CC_WAIT_STEP_DEF_END",
+      "path": "src/step-definitions/wait.js"
+    },
+    {
+      "id": "wait_pom_function",
+      "type": "pom_function",
+      "target_file": "cypress/pom/main.pom.js",
+      "marker_start_id": "CC_WAIT_POM_FUNC_START",
+      "marker_end_id": "CC_WAIT_POM_FUNC_END",
+      "path": "src/pom-functions/waitCustom.js"
+    }
+  ]
+}
