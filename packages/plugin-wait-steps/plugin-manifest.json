@@ -7,7 +7,7 @@
     {
       "id": "wait_step_definition",
       "type": "step_definition",
-      "target_file": "cypress/common/stepDefinition.core.js",
+      "target_file": "cypress/common/stepDefinition.js",
       "marker_start_id": "CC_WAIT_STEP_DEF_START",
       "marker_end_id": "CC_WAIT_STEP_DEF_END",
       "path": "src/step-definitions/wait.js"
