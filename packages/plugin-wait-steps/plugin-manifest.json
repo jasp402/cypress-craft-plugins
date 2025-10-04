@@ -1,7 +1,7 @@
 {
   "name": "wait-steps",
   "displayName": "Wait Steps",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Provides step definitions to pause execution for a specified duration, along with its core POM function.",
   "snippets": [
     {
