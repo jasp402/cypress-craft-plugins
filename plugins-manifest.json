@@ -1,0 +1,9 @@
+{
+  "plugins": [
+    {
+      "name": "@cypress-craft/plugin-steps",
+      "description": "Steps avanzados para autenticación",
+      "version": "1.0.0"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "@cypress-craft/plugin-steps",
+  "version": "1.0.0",
+  "description": "Steps avanzados para autenticación",
+  "main": "index.js",
+  "license": "ISC"
+}
