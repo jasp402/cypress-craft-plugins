@@ -4,6 +4,11 @@
       "name": "@cypress-craft/plugin-wait-steps",
       "description": "Provides common wait step definitions and their corresponding POM functions for Cypress-Craft.",
       "version": "1.0.0"
+    },
+    {
+      "name": "@cypress-craft/capture-screen-steps",
+      "description": "Provides common screen capture step definitions and their corresponding POM functions for Cypress-Craft.",
+      "version": "1.0.0"
     }
   ]
 }

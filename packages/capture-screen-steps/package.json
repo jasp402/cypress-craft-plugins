@@ -1,0 +1,18 @@
+{
+  "name": "@cypress-craft/capture-screen-steps",
+  "version": "1.0.0",
+  "description": "Provides common screen capture step definitions and their corresponding POM functions for Cypress-Craft.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "cypress-craft",
+    "steps",
+    "wait"
+  ],
+  "author": "Jasp402",
+  "license": "MIT"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "capture-screen-steps",
+  "displayName": "Capture Screen Steps",
+  "version": "1.0.0",
+  "description": "Provides a step to capture a full-page screenshot and its corresponding POM function.",
+  "snippets": [
+    {
+      "id": "capture_screen_step_definition",
+      "type": "step_definition",
+      "target_file": "cypress/common/stepDefinition.js",
+      "marker_start_id": "CC_CAPTURE_SCREEN_STEP_DEF_START",
+      "marker_end_id": "CC_CAPTURE_SCREEN_STEP_DEF_END",
+      "path": "src/step-definitions/capture-screen.js"
+    },
+    {
+      "id": "capture_screen_pom_function",
+      "type": "pom_function",
+      "target_file": "cypress/pom/main.pom.js",
+      "marker_start_id": "CC_CAPTURE_SCREEN_POM_FUNC_START",
+      "marker_end_id": "CC_CAPTURE_SCREEN_POM_FUNC_END",
+      "path": "src/pom-functions/screenshot.js"
+    }
+  ]
+}
